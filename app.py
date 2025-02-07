@@ -16,9 +16,9 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 
 diabetes_model = pickle.load(open(f'diabetics_trained_model.sav','rb'))
 
-heart_disease_model = pickle.load(open(f'C:/Users/athun/OneDrive/Documents/Mini-Project/Simple Multi Prediction web/trained model/heart_trained_model.sav', 'rb'))
+heart_disease_model = pickle.load(open(f'heart_trained_model.sav', 'rb'))
 
-parkinsons_model = pickle.load(open(f'C:/Users/athun/OneDrive/Documents/Mini-Project/Simple Multi Prediction web/trained model/parkinson_trained_model.sav', 'rb'))
+parkinsons_model = pickle.load(open(f'parkinson_trained_model.sav', 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
