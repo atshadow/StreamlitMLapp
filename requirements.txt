@@ -5,3 +5,12 @@ streamlit-option-menu==0.3.2
 scikit-learn==1.0.1
 protobuf==3.20.1
 altair==4.2.0
+numpy>=1.22.0  # Or a more recent version known to be compatible with Python 3.9+
+pickle-mixin==1.0.2
+streamlit==1.2.0
+streamlit-option-menu==0.3.2
+scikit-learn>=1.0.2  # Or a more recent 
+protobuf>=3.20.0 # Or a more recent version
+altair==4.2.0
+pandas  # Add pandas, it's often used with scikit-learn
+joblib  # Add joblib, it's often a dependency of scikit-learn
